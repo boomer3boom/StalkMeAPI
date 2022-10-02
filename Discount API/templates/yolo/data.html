@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Course Details</h1>
+{% for course in results %}
+<p> name:{{course.course_name}} <br> <br>
+    If human: <br>
+        gender:{{course.description}}<br>
+    </p>
+    {% endfor %}
+</body>
+</html>
